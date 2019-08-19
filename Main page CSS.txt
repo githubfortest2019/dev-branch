@@ -1,0 +1,168 @@
+.content-header {
+    display: none;
+}
+
+.content {
+    padding: 0;
+}
+
+.box-header, .box-body {
+    border-top-width: 0;
+    margin-bottom: 0;
+}
+
+.box-footer {
+    border-top-width: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #808080;
+}
+
+.description-header {
+    cursor: pointer;
+}
+
+#industrys, #reports {
+    border: 1px solid #3c8dbc;
+    border-radius: 5px;
+}
+
+#information, #indicators {
+    border: 1px solid #3c8dbc;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+#informationMain .img-circle-scale {
+    width: 100px;
+    height: 100px;
+}
+
+#informationOrg {
+    margin-bottom: 10px;
+}
+
+.select2-selection {
+    text-align: center;
+}
+
+.info-box {
+    border: 1px solid #3c8dbc;
+    border-radius: 2px; 
+}
+
+#indicatorsMain {
+    padding-bottom: 0;
+}
+
+#indicatorsListOrgOrCameras {
+    padding-top: 0;
+}
+
+#reportsTitle {
+    cursor: default;
+    font-size: 18px;
+    color: #3c8dbc;
+}
+
+.rectangle {
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rectangle a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #D3D4DA;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.rectangle a:hover {
+    background: #DCDDE1;
+}  
+
+.rectangle a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #9097A2;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rectangle a:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.rectangle a:hover:after {
+    left: -.5em;
+    border-left-color: #9097A2;
+}
+
+.border {
+    list-style: none;
+    padding: 0;
+}
+.border li {
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #3c8dbc; 
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+         -2px -2px 5px 0 rgba(0,0,0,.1),
+        2px 2px 5px 0 rgba(0,0,0,.1),
+        -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+
+.border li:hover {
+    border-left: 10px solid transparent;
+    border-right: 10px solid #3c8dbc;
+}
+
+#cameras li {
+    cursor: pointer;
+}
+
+#graph {
+    border: 1px solid #3c8dbc;
+    border-style: dashed;
+    border-radius: 10px;
+}

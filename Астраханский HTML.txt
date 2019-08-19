@@ -1,0 +1,178 @@
+<div class="box box-header" id="titleOrg">
+    <h2>АПК Астраханский</h2>
+</div>
+<div class="box box-body">
+    <div class="nav-tabs-custom flat" style="margin-bottom: 0">
+        <ul class="nav nav-tabs" id="lines">
+            <li class="active" style="width: 30%">
+                <a href="#Line1" role="tab" data-toggle="tab" aria-expanded="true" id="line1">
+                    <i class="fa fa-gear"></i>
+                    <span class="titleSpanLine">Линия 1</span>
+                </a>
+            </li>
+            <li style="width: 30%">
+                <a href="#Line2" role="tab" data-toggle="tab" aria-expanded="false" id="line2">
+                    <i class="fa fa-gear"></i>
+                    <span class="titleSpanLine">Линия 2</span>
+                </a>
+            </li>
+            <li style="width: 30%">
+                <a href="#Line3" role="tab" data-toggle="tab" aria-expanded="false" id="line3">
+                    <i class="fa fa-gear"></i>
+                    <span class="titleSpanLine">Линия 3</span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" style="padding-bottom: 0">
+            <div class="tab-pane active" id="Line1" >
+                <div class="nav-tabs-custom flat">
+                    <ul class="nav nav-tabs" id="circuitsLine1">
+                        <li class="active" style="width: 18%">
+                            <a href="#Circuit1Line1" role="tab" data-toggle="tab" aria-expanded="true" id="circuit1Line1">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Линия</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit2Line1" role="tab" data-toggle="tab" aria-expanded="false" id="circuit2Line1">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Стерилизатор</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit3Line1" role="tab" data-toggle="tab" aria-expanded="false" id="circuit3Line1">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Выпарная</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit4Line1" role="tab" data-toggle="tab" aria-expanded="false" id="circuit4Line1">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Наполнитель</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Circuit1Line1" data-line="1" data-circuit="1"></div>
+                        <div class="tab-pane" id="Circuit2Line1" data-line="1" data-circuit="2"></div>
+                        <div class="tab-pane" id="Circuit3Line1" data-line="1" data-circuit="3"></div>
+                        <div class="tab-pane" id="Circuit4Line1" data-line="1" data-circuit="4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="Line2">
+                <div class="nav-tabs-custom flat">
+                    <ul class="nav nav-tabs" id="circuitsLine2">
+                        <li class="active" style="width: 18%">
+                            <a href="#Circuit1Line2" role="tab" data-toggle="tab" aria-expanded="true" id="circuit1Line2">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Линия</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit2Line2" role="tab" data-toggle="tab" aria-expanded="false" id="circuit2Line2">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Стерилизатор</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit3Line2" role="tab" data-toggle="tab" aria-expanded="false" id="circuit3Line2">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Выпарная</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit4Line2" role="tab" data-toggle="tab" aria-expanded="false" id="circuit4Line2">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Наполнитель</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Circuit1Line2" data-line="2" data-circuit="1"></div>
+                        <div class="tab-pane" id="Circuit2Line2" data-line="2" data-circuit="2"></div>
+                        <div class="tab-pane" id="Circuit3Line2" data-line="2" data-circuit="3"></div>
+                        <div class="tab-pane" id="Circuit4Line2" data-line="2" data-circuit="4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="Line3">
+                <div class="nav-tabs-custom flat">
+                    <ul class="nav nav-tabs" id="circuitsLine3">
+                        <li class="active" style="width: 18%">
+                            <a href="#Circuit1Line3" role="tab" data-toggle="tab" aria-expanded="true" id="circuit1Line3">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Линия</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit2Line3" role="tab" data-toggle="tab" aria-expanded="false" id="circuit2Line3">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Стерилизатор</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit3Line3" role="tab" data-toggle="tab" aria-expanded="false" id="circuit3Line3">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Выпарная</span>
+                            </a>
+                        </li>
+                        <li style="width: 18%">
+                            <a href="#Circuit4Line3" role="tab" data-toggle="tab" aria-expanded="false" id="circuit4Line3">
+                                <i class="fa fa-plug"></i>
+                                <span class="titleSpan">Наполнитель</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Circuit1Line3" data-line="3" data-circuit="1"></div>
+                        <div class="tab-pane" id="Circuit2Line3" data-line="3" data-circuit="2"></div>
+                        <div class="tab-pane" id="Circuit3Line3" data-line="3" data-circuit="3"></div>
+                        <div class="tab-pane" id="Circuit4Line3" data-line="3" data-circuit="4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box box-footer">
+    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <button class="btn btn-primary btn-flat"
+                type="button"
+                id="buttonShowModal"
+                name="buttonShowModal"
+                style="width: 100%">
+                <i class="fa fa-line-chart"></i>
+                    Вывод графика
+        </button>
+        <br><br>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="fa fa-clock-o"></i>
+                Значения по
+            </span>
+            <select 
+                id="selectPeriod"
+                class="form-control flat valid select2" 
+                style="width: 100%">
+                <option value="1">минутам</option>
+                <option value="2">часам</option>
+                <option value="3">дням</option>
+                <option value="4">месяцам</option>
+            </select>
+        </div>
+        <br>
+        <div class="input-group">
+            <div class="input-group-addon">
+                <i class="fa fa-calendar"></i>
+            </div>
+            <input type="text" class="form-control pull-right" id="daterange">
+        </div>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+        <div id="graph" style="height: 400px; width: 100%"></div>
+        <div id="graphTemp" style="visibility: none"></div>
+    </div>
+</div>
+
+<div id="dialogWindow"></div>

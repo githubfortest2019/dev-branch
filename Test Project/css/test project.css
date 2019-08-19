@@ -1,0 +1,256 @@
+@font-face {
+	font-family: DINPro-Light;
+	src: url(../fonts/DINPro-Light.ttf);
+}
+
+@font-face {
+	font-family: DINPro;
+	src: url(../fonts/DINPro.ttf);
+}
+
+@font-face {
+	font-family: DINPro-Bold;
+	src: url(../fonts/DINPro-Bold.ttf);
+}
+
+body {
+	margin: 0;
+	background-color: black;
+}
+
+.content {
+	margin: 0 12%;
+	background-color: white;
+}
+
+.header {
+	text-align: center;
+	padding: 150px;
+}
+
+.header h1 {
+	margin: 0;
+	font-family: DINPro-Light;
+	font-size: 44px;
+	color: #282828;
+}
+
+.header h2 {
+	font-family: DINPro;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 20px 0 60px;
+}
+
+.color-text {
+	color: #f4781c;
+	font-family: DINPro-Bold;
+}
+
+#fill_form {
+	padding: 15px 25px;
+	font-family: DINPro;
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid #d6d6d6;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 0 2px 0 #d6d6d6;
+}
+
+#fill_form:hover {
+	border-color: #3c8dbc;
+	box-shadow: 0 0 2px 0 #3c8dbc;
+	background-color: #3c8dbc;
+	color: white;
+}
+
+.image img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.box-characteristics {
+	background-color: #f7f5fa;
+}
+
+.characteristics {
+	margin: 0 15%;
+	height: 400px;
+	background-color: white;
+	position: relative;
+	top: -70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.characteristics-blocks {
+	width: 50%;
+	height: 200px;
+	border: 1px solid #f7f5fa;
+	flex: 1 0 387px;
+}
+
+.characteristics-blocks h4 {
+	font-family: DINPro-Bold;
+	font-size: 12px;
+	color: #f4781c;
+	font-weight: 700;
+	margin: 40px 70px 15px;
+}
+
+.characteristics-blocks p {
+	font-family: DINPro;
+	font-size: 24px;
+	margin: 0 70px 30px;
+}
+
+.we-are-similar {
+	padding: 10px 22%;
+}
+
+.we-are-similar h2 {
+	margin: 40px 0 25px;
+	font-family: DINPro-Light;
+	font-size: 44px;
+	color: #282828;
+}
+
+.we-are-similar p {
+	font-family: DINPro;
+	font-size: 18px;
+	margin-bottom: 30px;
+	color: #4d4c52;
+}
+
+.advantages {
+	background-color: #f7f5fa;
+	padding: 70px 5%;
+}
+
+.advantages-title {
+	text-align: center;
+}
+
+.advantages h2 {
+	font-family: DINPro-Light;
+	font-size: 44px;
+}
+
+.wallet {
+	color: #f4781c;
+}
+
+.advantages-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.advantages-list-blocks {
+	width: 30%;
+	padding: 15px;
+}
+
+.advantages-list-blocks h5 {
+	font-family: DINPro-Bold;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 0 10px;
+}
+
+.advantages-list-blocks hr {
+	border: none;
+    background-color: #f4781c;
+    height: 2px;
+    margin: 20px 0;
+    width: 8%;
+}
+
+.advantages-list-blocks p {
+	font-family: DINPro;
+	font-size: 18px;
+	color: #4d4c52;
+}
+
+.about-you {
+	background-color: #0f0f0f;
+}
+
+.about-you-title {
+	margin: 0 22%;
+	padding: 80px 0 0;
+	text-align: center;
+}
+
+.about-you-title h2 {
+	margin: 0;
+	color: white;
+	font-family: DINPro-Light;
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.about-you-body {
+	margin: 0 22%;
+}
+
+.input-form {
+	padding: 40px 0 0;
+}
+
+.input-title {
+	display: flex;
+	align-items: center;
+	width: 600px;
+}
+
+.number {
+	padding: 20px 27px;
+	color: #f4781c;
+	border: 1px solid #4f4f4f;
+	border-radius: 50%;
+	font-family: DINPro;
+	font-size: 18px;
+}
+
+.title {
+	color: white;
+	font-family: DINPro;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.input-fill {
+	margin: 10px 85px;
+}
+
+.fill {
+	background-color: #0f0f0f;
+	color: #4f4f4f;
+	border: 0;
+	border-bottom: 2px solid #4f4f4f;
+	padding: 10px 5px;
+	width: 100%;
+	font-size: 24px;
+}
+
+.button-send {
+	padding: 60px 60px 80px;
+	text-align: center;
+}
+
+#button_send {
+	margin-left: 25px;
+	padding: 15px 215px;
+	border-radius: 20px;
+	color: #f4781c;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.error {
+	color: #f4781c;
+}

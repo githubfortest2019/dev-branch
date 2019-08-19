@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<title>Test</title>
+
+	<style type="text/css">
+		.table-box {
+			margin: 2em 5em;
+		}
+		#gist .title {
+			text-align: center;
+			font-size: 1em;
+			font-style: italic;
+		}
+		.list-box {
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+		}
+		.list {
+			margin: 1em 5em 1em 13em;
+			padding: 0;
+			list-style: none;
+		}
+		.list_element {
+			margin: 0.3em 0;
+			padding: 0.5em 1em;
+			border: 1px solid #d6d6d6;
+			border-radius: 10px;
+			box-shadow: 0 0 2px 1px #d6d6d6;
+			cursor: pointer;
+		}
+		.list_element:hover {
+			border-color: #3c8dbc;
+			box-shadow: 0 0 2px 1px #3c8dbc;
+			background: linear-gradient(to right, #D9D8D8, white, #D9D8D8);
+		    background-size: 90%;
+		    animation: animate_li 3s linear infinite;
+		}
+		@keyframes animate_li {
+		    0% {
+		        background-position: -500%;
+		    }
+		    100% {
+		        background-position: 500%;
+		    }
+		}
+		#back {
+			font-size: 20px;
+			padding: 0.2em 2em;
+			border: 1px solid #d6d6d6;
+			border-radius: 10px;
+			box-shadow: 0 0 3px 2px #d6d6d6;
+			cursor: pointer;
+			background-color: white;
+		}
+		#back:hover {
+			border-color: #3c8dbc;
+			box-shadow: 0 0 2px 0 #3c8dbc;
+			background-color: #3c8dbc;
+			color: white;
+		}
+		#timer {
+			width: 15%;
+			text-align: center;
+			margin: 1em 5em;
+			font-size: 2.5em;
+			box-shadow: 0 0 2px 3px #d6d6d6;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<main class="content">
+		<div class="table-box">
+		    <table id="gist"
+		        class="table table-striped table-bordered table-hover"
+		        data-page-length="-1">
+		        <thead>
+		            <tr>
+		                <th class="title">Название файла</th>
+		                <th class="title">Язык</th>
+		                <th class="title">Ссылка</th>
+		            </tr>
+		        </thead>
+		        <tbody></tbody>
+		    </table>
+		</div>
+		<div class="list-box">
+			<ul class="list"></ul>
+			<button id="back">Назад</button>
+		</div>
+	    <div id="timer"></div>
+	</main>
+
+	<script type="text/javascript">
+		//Задание 1
+
+		//Задание выполнено с использованием библиотеки JQuery
+
+		$.ajax({
+		    url: "https://api.github.com/gists/public",
+		    dataType: "json"
+		})
+		.done(function(dataJson) {
+		    $.each(dataJson, function(index, value) {
+		        var object = dataJson[index].files;
+		        for (let key in object) {
+		            $('#gist tbody').append($('<tr>')
+		                                .append($('<td>').text(object[key].filename))
+		                                .append($('<td>').text(object[key].language))
+		                                .append($('<td>').text(object[key].raw_url))
+		            );
+		        }
+		    });
+		});
+
+		//Задание 2
+
+		//Задание выполнено с использованием библиотеки JQuery
+
+		var level = 1;
+
+		var list = createObject(level, '');
+		var listCurrentLevel;
+		var listAllLevels = [];
+		createList(list);
+
+		function createObject(level, parentName) {
+			let list = [];
+			for (let i = 0; i < 10; i++) {
+				list[i] = {
+					text: `Name: ${parentName}${i+1}. ->`,
+					click: 0,
+					id: `${parentName}${i+1}.`
+				}
+				if (level < 3) {
+					list[i].next = createObject(level + 1, list[i].id);
+				}
+			}
+			return list;
+		}
+
+		function createList(list) {
+			$('.list').empty();
+			for (let i = 0; i < list.length; i++) {
+				$('.list').append($(`<li class="list_element" id="${list[i].id}" data-count_click="${list[i].click}">${i+1}. ${list[i].text}. Click: <span>${list[i].click}</span></li>`));
+			}
+
+			$('li').on('click', function() {
+				let countClick = $(this).attr("data-count_click");
+				countClick++;
+				$(this).attr("data-count_click", countClick);
+				this.childNodes[1].innerHTML = countClick;
+				for (let key in list) {
+					if (list[key].id == $(this).attr("id")) {
+						list[key].click = countClick;
+					}
+				}
+				if ("next" in list[0]) {
+					let listChildren;
+					for (let key in list) {
+						if (list[key].id == $(this).attr("id")) {
+							listChildren = list[key].next;
+						}
+					}
+					listAllLevels.push(list);
+					createList(listChildren);
+				}
+			});
+		}
+
+		$('#back').on('click', function() {
+			let previousList = listAllLevels.pop();
+			if (previousList != undefined) {
+				createList(previousList);
+			}
+		});
+
+		//Задание 3
+
+		var timer = new Date();
+		timer.setHours(0,0,0,0);
+
+		setInterval(function() {
+		    timer.setSeconds(timer.getSeconds() + 1);
+		    document.getElementById('timer').innerHTML = timer.toLocaleTimeString();
+		}, 1000);
+
+		
+	</script>
+</body>
+</html>
