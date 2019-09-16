@@ -1,0 +1,615 @@
+{
+	"folder_history":
+	[
+		"/C/Users/Admin/Desktop/gtm-db",
+		"/C/Users/Admin/Desktop/Исходники работ",
+		"/C/Users/Admin/Desktop/react-app",
+		"/C/Users/Admin/Desktop/react_app",
+		"/C/Users/Admin/Desktop/react_project",
+		"/C/Users/Admin/Desktop/React/components"
+	],
+	"last_version": 3207,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rg",
+						"rgba()\tbackground-color"
+					],
+					[
+						"mar",
+						"margin-right\tproperty"
+					],
+					[
+						"co",
+						"color\tproperty"
+					],
+					[
+						"fo",
+						"font-family\tproperty"
+					],
+					[
+						"tra",
+						"transform-origin\tproperty"
+					],
+					[
+						"ro",
+						"rotateY()\ttransform"
+					],
+					[
+						"transf",
+						"transform\tproperty"
+					],
+					[
+						"box",
+						"box-shadow\tproperty"
+					],
+					[
+						"pos",
+						"position\tproperty"
+					],
+					[
+						"transform-",
+						"transform-style\tproperty"
+					],
+					[
+						"t",
+						"transform\tproperty"
+					],
+					[
+						"r",
+						"rgba()\tbackground-color"
+					],
+					[
+						"ba",
+						"background-color\tproperty"
+					],
+					[
+						"al",
+						"align-items\tproperty"
+					],
+					[
+						"flex-w",
+						"flex-wrap\tproperty"
+					],
+					[
+						"z",
+						"z-index\tproperty"
+					],
+					[
+						"u",
+						"url()\tbackground"
+					],
+					[
+						"di",
+						"display\tproperty"
+					],
+					[
+						"con",
+						"contextMenu"
+					],
+					[
+						"sele",
+						"selectId"
+					],
+					[
+						"data",
+						"dataJson"
+					],
+					[
+						"da",
+						"dataJson"
+					],
+					[
+						"hea",
+						"header\tTag"
+					],
+					[
+						"i",
+						"innerHTML"
+					],
+					[
+						"cre",
+						"createObject"
+					],
+					[
+						"li",
+						"list"
+					],
+					[
+						"le",
+						"level"
+					],
+					[
+						"fle",
+						"flex-flow\tproperty"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"getS",
+						"getSeconds"
+					],
+					[
+						"time",
+						"timer"
+					],
+					[
+						"ov",
+						"overflow-y\tproperty"
+					],
+					[
+						"ove",
+						"overflow-y\tproperty"
+					],
+					[
+						"o",
+						"overflow\tproperty"
+					],
+					[
+						"text-a",
+						"text-align\tproperty"
+					],
+					[
+						"wid",
+						"width\tproperty"
+					],
+					[
+						"he",
+						"height\tproperty"
+					],
+					[
+						"max",
+						"max-width\tproperty"
+					],
+					[
+						"rea",
+						"React"
+					],
+					[
+						"back",
+						"background-color\tproperty"
+					],
+					[
+						"fon",
+						"font-size\tproperty"
+					],
+					[
+						"p",
+						"phone"
+					],
+					[
+						"for",
+						"form"
+					],
+					[
+						"font-s",
+						"font-size\tproperty"
+					],
+					[
+						"a",
+						"advantages-list-blocks"
+					],
+					[
+						"font",
+						"font-size\tproperty"
+					],
+					[
+						"h",
+						"h5\tTag"
+					],
+					[
+						"flex",
+						"flex\tproperty"
+					],
+					[
+						"fl",
+						"flex-wrap\tproperty"
+					],
+					[
+						"f",
+						"flex-start\tjustify-content"
+					],
+					[
+						"table",
+						"table-cell\tdisplay"
+					],
+					[
+						"ta",
+						"table-cell\tdisplay"
+					],
+					[
+						"in",
+						"inline-block\tdisplay"
+					],
+					[
+						"pa",
+						"placeholder\tAttr"
+					],
+					[
+						"ma",
+						"margin\tproperty"
+					],
+					[
+						"bo",
+						"border-radius\tproperty"
+					],
+					[
+						"border-to",
+						"border-top-right-radius\tproperty"
+					],
+					[
+						"border-top",
+						"border-top-left-radius\tproperty"
+					],
+					[
+						"border-c",
+						"border-color\tproperty"
+					],
+					[
+						"box-",
+						"box-shadow\tproperty"
+					],
+					[
+						"bor",
+						"border-radius\tproperty"
+					],
+					[
+						"border-r",
+						"border-radius\tproperty"
+					],
+					[
+						"border",
+						"border\tproperty"
+					],
+					[
+						"wi",
+						"width\tproperty"
+					],
+					[
+						"tv",
+						"tv-text"
+					],
+					[
+						"te",
+						"text-align\tproperty"
+					],
+					[
+						"col",
+						"col-lg-4"
+					],
+					[
+						"l",
+						"li\tTag"
+					],
+					[
+						"backg",
+						"background-image\tproperty"
+					],
+					[
+						"me",
+						"meta\tTag"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"Pack",
+						"Install Package Control"
+					],
+					[
+						"Packa",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/Admin/Desktop/gtm-db/src/main.js",
+				"/C/Users/Admin/Desktop/gtm-db/src/components/HelloWorld.vue",
+				"/C/Users/Admin/Desktop/gtm-db/src/App.vue",
+				"/C/Users/Admin/Desktop/gtm-db/public/index.html",
+				"/C/Users/Admin/Desktop/gtm-db/src/store.js",
+				"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+				"/C/Users/Admin/Desktop/Исходники работ/1.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/тестовое задание.html",
+				"/C/Users/Admin/Desktop/Исходники работ/1 test.html",
+				"/C/Users/Admin/Desktop/Исходники работ/Астраханский JS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Астраханский HTML.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Test Project/css/test project.css",
+				"/C/Users/Admin/Desktop/Исходники работ/Test Project/test project.html",
+				"/C/Users/Admin/Desktop/angular/angular-examples/src/app/app.component.html",
+				"/C/Users/Admin/Desktop/angular/angular-examples/src/app/app.component.ts",
+				"/C/Users/Admin/Desktop/Исходники работ/Хинты.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Создание заявки CSS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Создание заявки JS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Создание заявки HTML.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Структура организаций  JS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Структура организаций HTML.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Библиотека элементов CSS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/test2.html",
+				"/C/Users/Admin/Desktop/Исходники работ/test/main.css",
+				"/C/Users/Admin/Desktop/Исходники работ/test/main.js",
+				"/C/Users/Admin/Desktop/Исходники работ/test/main.html",
+				"/C/Users/Admin/Desktop/Исходники работ/nice_page_JS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/nice_page_CSS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/nice_page_HTML.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/1 test/test.js",
+				"/C/Users/Admin/Desktop/Исходники работ/1 test/test.css",
+				"/C/Users/Admin/Desktop/1.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Test Project/js/test project.js",
+				"/C/Users/Admin/Desktop/Исходники работ/React/App.js",
+				"/C/Users/Admin/Desktop/Исходники работ/test site HTML.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/test site CSS.txt",
+				"/C/Users/Admin/Desktop/Исходники работ/Main page CSS.txt",
+				"/C/Users/Admin/Desktop/Source code.txt",
+				"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+				"/C/Users/Admin/Desktop/test/script.txt",
+				"/C/Users/Admin/Desktop/test/index.txt",
+				"/C/Users/Admin/Desktop/test.txt",
+				"/C/Users/Admin/Desktop/example code.js",
+				"/C/Users/Admin/Desktop/react-app/src/Content.css",
+				"/C/Users/Admin/Desktop/laba/page1.html",
+				"/C/Users/Admin/Desktop/laba/index.html",
+				"/C/Users/Admin/Desktop/laba/css/main.css",
+				"/C/Users/Admin/Desktop/laba/index.css",
+				"/C/Users/Admin/Desktop/react-app/src/Content.js",
+				"/C/Users/Admin/Desktop/react-app/src/Header.css",
+				"/C/Users/Admin/Desktop/react-app/src/Header.js",
+				"/C/Users/Admin/Desktop/react-app/src/index.js",
+				"/C/Users/Admin/Desktop/react-app/src/OfficeImage.js",
+				"/C/Users/Admin/Desktop/react-app/src/Office-image.js",
+				"/C/Users/Admin/Desktop/react-app/src/index.css",
+				"/C/Users/Admin/Desktop/react-app/public/index.html",
+				"/C/Users/Admin/Desktop/react-app/src/App.js",
+				"/C/Users/Admin/Desktop/react_app/public/index.html",
+				"/C/Users/Admin/Desktop/react_app/src/index.css",
+				"/C/Users/Admin/Desktop/react_app/src/index.js",
+				"/C/Users/Admin/Desktop/Исходники работ/React/Components_menu_header.css",
+				"/C/Users/Admin/Desktop/react_project/src/index.js",
+				"/C/Users/Admin/Desktop/react_project/public/index.html",
+				"/C/Users/Admin/Desktop/react_project/src/index.css",
+				"/C/Users/Admin/Desktop/test/main.css",
+				"/C/Users/Admin/Desktop/test/main.js",
+				"/C/Users/Admin/Desktop/test/main.html",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu/Components_menu_list_element.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu/Components_menu_header.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu/Components_menu_list.css",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu/Components_menu_header.css",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu/Components_menu_list.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu.js",
+				"/C/Users/Admin/Desktop/React/components/src/index.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu_list.js",
+				"/C/Users/Admin/Desktop/React/components/src/App.css",
+				"/C/Users/Admin/Desktop/React/components/src/App.js",
+				"/C/Users/Admin/Desktop/MenuList.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components_content.js",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu_header.css",
+				"/C/Users/Admin/Desktop/React/components/src/Components_menu_header.js",
+				"/C/Users/Admin/Desktop/react store/MenuHeader.css",
+				"/C/Users/Admin/Desktop/react store/Menu_12.js",
+				"/C/Users/Admin/Desktop/react store/Menu.css",
+				"/C/Users/Admin/Desktop/react store/Content.js",
+				"/C/Users/Admin/Desktop/react store/MenuHeader.js",
+				"/C/Users/Admin/Desktop/React/components/src/Footer.js",
+				"/C/Users/Admin/Desktop/React/components/src/Header.js",
+				"/C/Users/Admin/Desktop/React/components/src/Content.js",
+				"/C/Users/Admin/Desktop/React/components/public/index.html",
+				"/C/Users/Admin/Desktop/React/components/src/index.css",
+				"/C/Users/Admin/Desktop/React/components/public/manifest.json",
+				"/C/Users/Admin/Desktop/React/components/package.json",
+				"/C/Users/Admin/Desktop/React/components/components.html",
+				"/C/Users/Admin/Desktop/React/components/js/buttons.jsx.js",
+				"/C/Users/Admin/Desktop/Test Project/test project.html",
+				"/C/Users/Admin/Desktop/React/components/js/buttons.js",
+				"/C/Users/Admin/Desktop/React/components/index.html",
+				"/C/Users/Admin/Desktop/React/Getting Started Code.txt",
+				"/C/Users/Admin/Desktop/React/examples/examples.html",
+				"/C/Users/Admin/Desktop/Test Project/css/test project.css",
+				"/C/Users/Admin/Desktop/Test Project/js/test project.js",
+				"/C/Users/Admin/Desktop/main.js",
+				"/C/Users/Admin/Desktop/main.css",
+				"/C/Users/Admin/Desktop/main.html",
+				"/C/Users/Admin/Desktop/Halloween17/main.html",
+				"/C/Users/Admin/Desktop/Halloween17/css/main.css",
+				"/C/Users/Admin/Desktop/Halloween17/js/main.js",
+				"/C/Users/Admin/Desktop/Halloween17/js/main",
+				"/C/Users/Admin/Desktop/Halloween17/css/main",
+				"/C/Users/Admin/Desktop/Halloween17/main",
+				"/C/Users/Admin/Desktop/Halloween17/halloween17"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"tv-text-container",
+					"tv-text",
+					"tv-content",
+					"9",
+					";\n",
+					"Halloween",
+					"url",
+					";\n",
+					"repeat"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,1021,330,134,1777",
+			"project": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 211.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

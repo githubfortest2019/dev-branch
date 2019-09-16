@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"LESS",
+		"LocalizedMenu",
+		"Package Control",
+		"Vue Syntax Highlight"
+	]
+}
