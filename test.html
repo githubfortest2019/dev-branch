@@ -1,0 +1,319 @@
+#modalDownloadOrCalculationVersions {
+	.modal-content {
+		width: 150%;
+		right: 25%;
+
+		.modal-header {
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+
+			h1 {
+				margin: 0;
+				font-size: 18px;
+			}
+
+			i {
+				font-size: 24px;
+				color: @color-grey-4;
+
+				&:hover {
+					color: @color-grey-1;
+					cursor: pointer;
+				}
+			}
+		}
+
+		.modal-body {
+
+		}
+	}
+}
+
+// Заполнение модуля "Отчеты" для теста
+// for (let i = 2; i < 15; i++) {
+// 	$('.list-reports').append('<li class="report"><div class="image-report"><img src="https://s13.stc.all.kpcdn.net/share/i/12/8281141/inx960x640.jpg"></div><div class="settings-report"><i class="far fa-clock" title="Запустить отчет в заданное время"></i><i class="far fa-envelope" title="Отправить по почте (Excel)"></i><i class="fab fa-internet-explorer" title="Открыть отчет в браузере сразу по готовности"></i><i class="fas fa-download" title="Скачать через браузер (Excel)"></i></div><div class="information-reports"><h4>Tortor tempor cubilia fringilla primis felis tempor velit egestas hymenaeos.</h4><p>Odio. Commodo nam. Primis sem rutrum nunc in condimentum. Eu. A. Rutrum, curae; non duis, nullam torquent convallis cubilia. Ultrices tortor donec senectus magna primis elit donec iaculis dignissim odio elementum class mi luctus sit fermentum arcu tellus sollicitudin imperdiet.</p></div></li>');
+// }
+
+<div class="main-module-reports">
+	<div class="set-reports">
+		<span class="title">Набор отчетов</span>
+		<div class="select-content-set-reports">
+			<select class="select-set-reports">
+				<option>Test set</option>
+				<option>Test set 2</option>
+				<option>Test set 3</option>
+			</select>
+		</div>
+		<button class="settings-set-reports">
+			<i class="fas fa-plus-circle" title="Создать новый набор"></i>
+		</button>
+		<button class="settings-set-reports">
+			<i class="fas fa-edit" title="Редактировать набор"></i>
+		</button>
+		<button class="settings-set-reports">
+			<i class="fas fa-trash" title="Удалить набор"></i>
+		</button>
+		<span class="set-author">Автор набора: Админ EDU А.А., Админ EDU</span>
+	</div>
+	<ul class="list-reports">
+		<li class="report">
+			<div class="image-report">
+				<img src="https://s13.stc.all.kpcdn.net/share/i/12/8281141/inx960x640.jpg">
+			</div>
+			<div class="settings-report">
+				<i class="far fa-clock" title="Запустить отчет в заданное время"></i>
+				<i class="far fa-envelope" title="Отправить по почте (Excel)"></i>
+				<i class="fab fa-internet-explorer" title="Открыть отчет в браузере сразу по готовности"></i>
+				<i class="fas fa-download" title="Скачать через браузер (Excel)"></i>
+			</div>
+			<div class="information-reports">
+				<h4>Tortor tempor cubilia fringilla primis felis tempor velit egestas hymenaeos.</h4>
+				<p>Odio. Commodo nam. Primis sem rutrum nunc in condimentum. Eu. A. Rutrum, curae; non duis, nullam torquent convallis cubilia. Ultrices tortor donec senectus magna primis elit donec iaculis dignissim odio elementum class mi luctus sit fermentum arcu tellus sollicitudin imperdiet.</p>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="information-module-reports">
+	<div class="detailed-information-reports">
+		<div class="detailed-information-reports-header">
+			<label>
+				<input type="checkbox" class="btn-checkbox">
+				<i class="fas fa-flag storage"></i>
+			</label>
+			<span>Отчеты в очереди:</span>
+			<i class="fas fa-user-friends user-reports"></i>
+		</div>
+		<div class="report-queue">
+			
+		</div>
+	</div>
+	<div class="detailed-information-reports">
+		<div class="detailed-information-reports-header">
+			<label>
+				<input type="checkbox" class="btn-checkbox">
+				<i class="fas fa-flag storage"></i>
+			</label>
+			<span>Готовые отчеты:</span>
+			<i class="fas fa-user-friends user-reports"></i>
+		</div>
+		<div class="ready-reports">
+			
+		</div>
+	</div>
+</div>
+
+
+.module-reports {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.main-module-reports {
+	width: 60vw;
+	border-right: 1px solid #b4b4b4;
+}
+
+.information-module-reports {
+	width: 20vw;
+}
+
+.set-reports {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	height: calc(4.5vh + 1px);
+	border-bottom: 1px solid #b4b4b4;
+}
+
+.set-reports .title {
+	margin: 0 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+.select-set-reports {
+	width: 18em;
+	border: none;
+	border-bottom: 2px solid #ffd100;
+	cursor: pointer;
+}
+
+.settings-set-reports {
+	margin-left: 5px;
+	padding: 0 5px;
+	color: #6f6f6f;
+	background-color: white;
+	border: none;
+}
+
+.settings-set-reports:hover {
+	color: #333333;
+}
+
+.settings-set-reports:focus {
+	outline: none;
+}
+
+.set-reports .set-author {
+	margin-left: auto;
+	margin-right: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+/*--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//*/
+/* Список отчетов */
+/*--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//*/
+
+.list-reports {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: calc(85.5vh - 1px);
+	overflow-y: scroll;
+}
+
+.list-reports li {
+	border-bottom: 1px solid #b4b4b4;
+	height: 14vh;
+}
+
+.report {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.image-report {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 9vw;
+	height: 14vh;
+	padding: 10px;
+}
+
+.image-report img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 4px solid #b4b4b4;
+	border-radius: 8px;
+}
+
+.image-report img:hover {
+	cursor: pointer;
+	border-color: #6f6f6f;
+}
+
+.settings-report {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.settings-report i {
+	margin: 3px 0;
+	padding: 3px 12px;
+	background-color: #E4E4E4;
+	font-size: 18px;
+	color: #6f6f6f;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 1px #b4b4b4;
+}
+
+.settings-report i:hover {
+	background-color: #b4b4b4;
+	color: #4D4D4D;
+	cursor: pointer;
+}
+
+.information-reports {
+	padding: 10px 15px;
+}
+
+.information-reports h4 {
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.information-reports p {
+	margin: 0;
+	width: 45vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	user-select: none;
+	font-size: 14px;
+	border-left: 2px solid #ffd100;
+	padding-left: 10px;
+}
+
+.information-module-reports {
+	display: flex;
+	flex-direction: column;
+}
+
+.detailed-information-reports {
+	display: flex;
+	flex-direction: column;
+	height: 45vh;
+	border-bottom: 1px solid #b4b4b4;
+}
+
+.detailed-information-reports-header {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	height: calc(4.5vh + 1px);
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #b4b4b4;
+	padding: 10px;
+}
+
+.detailed-information-reports-header label {
+	margin: 0;
+	font-size: 18px;
+	color: #b4b4b4;
+}
+
+.detailed-information-reports-header label:hover {
+	cursor: pointer;
+}
+
+.btn-checkbox {
+	display: none;
+}
+
+.btn-checkbox:checked ~ .storage {
+	color: #ff1d25;
+}
+
+.storage {
+	transition: .2s color;
+}
+
+.detailed-information-reports-header span {
+	margin: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+
+.detailed-information-reports-header .user-reports {
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: 15px;
+	color: #b4b4b4;
+}
+
+.detailed-information-reports-header .user-reports:hover {
+	color: #333333;
+	cursor: pointer;
+}
+
+.report-queue {
+
+}
+
+.ready-reports {
+
+}
